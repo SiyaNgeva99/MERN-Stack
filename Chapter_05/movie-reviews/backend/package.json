@@ -1,17 +1,26 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
-  "author": "Siyabong Ngeva",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiyaNgeva99/MERN-Stack.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiyaNgeva99/MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/SiyaNgeva99/MERN-Stack#readme",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "mongodb": "^6.8.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
   }
 }
